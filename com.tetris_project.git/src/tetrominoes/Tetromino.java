@@ -31,6 +31,7 @@ public class Tetromino {
 		}
 		//TO DO Check if rotation is possible
 		//Rotate 
+		//Cool
 	}
 	
 }
