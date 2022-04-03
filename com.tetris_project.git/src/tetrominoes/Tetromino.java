@@ -23,15 +23,17 @@ public class Tetromino {
 		//Rotate (1 clockwise / -1 counter-clockwise) 
 		int rotaTest = orientation + direction; 
 		//Handle out of bounds rotations
-		if ( + direction < 0) {
+		if ( rotaTest + direction < 0) {
 			rotaTest = 3;
 		}
 		else if (rotaTest + direction > 3) {
 			rotaTest = 0; 
 		}
-		//TO DO Check if rotation is possible
 		//Rotate 
-		//Cool
+		this.orientation = rotaTest; 
+	}
+	public void Move(Vector2D direction) {
+		position.add(direction);
 	}
 	
 }

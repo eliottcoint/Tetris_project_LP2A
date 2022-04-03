@@ -14,7 +14,6 @@ public class Game {
 	private Tetromino tetromino; 
 	
 	
-	
 	public Tetromino getTetromino() {
 		return tetromino;
 	}
@@ -32,7 +31,7 @@ public class Game {
 	}
 	public Game() {
 		this.grid = new int[10][20];
-		this.tetromino = new Tetromino(); 
+		this.tetromino = new TStyle(); 
 	}
 
 	public int[][] getGrid() {
@@ -132,14 +131,13 @@ public class Game {
 			}
 		}
 		
-		
 		//Update grid
 		this.grid = gridTmp; 
 		
 	}
 	
 	public void displayGridValue() {
-		for (int i = 0; i < this.grid.length; i++) {
+		for (int i = 0; i < this.grid .length; i++) {
 			String str = ""; 
 			for (int j = 0; j < this.grid[i].length; j++) {
 				str = str + grid[i][j];

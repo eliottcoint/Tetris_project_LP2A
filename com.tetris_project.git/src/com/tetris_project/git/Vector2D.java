@@ -12,7 +12,10 @@ public class Vector2D {
 		this.x = 0; 
 		this.y = 0;
 	}
-	
+	public Vector2D(Vector2D vector) {
+		this.x = vector.x; 
+		this.y = vector.y;
+	}
 	public int getX() {
 		return x;
 	}
@@ -25,5 +28,10 @@ public class Vector2D {
 	public void setY(int y) {
 		this.y = y;
 	} 
+	
+	public void add(Vector2D vector) {
+		this.x += vector.x; 
+		this.y += vector.y;
+	}
 	
 }
