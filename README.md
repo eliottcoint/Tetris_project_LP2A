@@ -17,28 +17,35 @@ This project is a Java-based implementation of the classic Tetris game, develope
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/eliottcoint/Tetris_project_LP2A.git
+   ```
 
-# Navigate to the Project Directory:
-cd Tetris_project_LP2A
+2. **Navigate to the Project Directory:**
+   ```bash
+   cd Tetris_project_LP2A
+   ```
 
-# Compile and Run the Game:
-javac Tetris.java
-java Tetris
+3. **Compile and Run the Game:**
+   ```bash
+   javac Tetris.java
+   java Tetris
+   ```
 
-# Gameplay Instructions
-## Controls:
+## Gameplay Instructions
+
+### Controls:
 - **Left Arrow:** Move tetromino left.
 - **Right Arrow:** Move tetromino right.
 - **Up Arrow:** Rotate tetromino.
 - **Down Arrow:** Accelerate tetromino drop.
-## Objective:
+
+### Objective:
 - Complete horizontal lines to score points. The game ends when the tetrominoes reach the top of the screen.
 
-# Contributing
+## Contributing
 If you'd like to contribute to this project, feel free to fork the repository and submit a pull request with your changes.
 
-# License
-This project is open-source and available under the MIT License.
+## License
+This project is open-source and available under the [MIT License](LICENSE).
 
-# Contact
-For any questions or feedback, feel free to reach out via my GitHub profile.
+## Contact
+For any questions or feedback, feel free to reach out via my [GitHub profile](https://github.com/eliottcoint).
